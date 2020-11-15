@@ -20,7 +20,7 @@ function colorClock(){
 
   document.getElementById('clock').innerHTML = clockFace;
   document.getElementById('days').innerHTML = napok[day];
-  document.body.style.background = hexColor;
+  document.getElementById('center').style.background = hexColor;
   setTimeout(function() { colorClock(); },  1000);
 }
 
